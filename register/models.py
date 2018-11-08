@@ -152,4 +152,4 @@ class usa(models.Model):
         verbose_name_plural = 'Logs dos lockers'
 
     def __str__(self):
-return str(self.idGuardaVolume) + ' - ' + str(self.idCliente)
+        return str(self.idGuardaVolume) + ' - ' + str(self.idCliente)
